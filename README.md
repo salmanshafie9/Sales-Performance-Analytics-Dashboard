@@ -2,37 +2,33 @@
 
 ## Overview
 
-This project analyses sales data using SQL and Power BI to monitor business performance across customers, products, regions and salespeople. The dashboard focuses on revenue, profitability, order performance and customer trends, providing clear insights to support business decision-making.
+This project analysed sales data using SQL and Power BI to investigate differences in revenue, profitability and sales performance across customers, products, regions and salespeople. The aim was to identify where performance was strongest, where profit margins were weaker and which areas were driving overall business results.
 
-## Key Features
+Analytical Problem
 
-Analysed sales data using SQL to calculate revenue, profit and performance across customers, products, regions and salespeople. Built a relational data model connecting sales, customers, products and salespeople. Developed DAX measures to calculate revenue, profit, average order value, profit margin and customer rankings. Created interactive Power BI dashboards with KPI cards, charts, tables and slicers to support sales and customer performance analysis.
+Management needed a clearer way to understand which products, customers, regions and salespeople were contributing most to revenue and profit, and where weaker performance or lower margins might require attention.
 
-## Key Metrics
+What I Did
 
-Total Revenue
+- Used SQL to calculate revenue, profit, order volumes and performance across customers, products, regions and salespeople
+- Used JOINs, GROUP BY, CTEs and RANK window functions to compare performance and identify top-performing areas
+- Built a relational data model connecting sales, customers, products and salespeople
+- Created DAX measures for revenue, profit, average order value, profit margin and customer rankings
+- Developed interactive Power BI dashboards with KPI cards, charts, tables and slicers to support detailed performance analysis
+- Used Excel for initial data preparation and validation
 
-Total Profit
+Key Metrics
+- Total Revenue
+- Total Profit
+- Total Orders
+- Total Customers
+- Average Order Value
+- Profit Margin %
+- Customer / Product Rankings
 
-Total Orders
+Business Value
 
-Total Customers
-
-Average Order Value
-
-Profit Margin %
-
-## Tools Used
-
-SQL (JOINs, aggregation, GROUP BY, CTEs, RANK window functions)
-
-Power BI (data modelling, DAX measures, RANKX, interactive dashboards)
-
-Excel (data preparation)
-
-## Business Value
-
-This dashboard provides management with visibility into sales and profitability performance across products, customers, regions and salespeople. It enables users to identify top-performing products and customers, compare regional and salesperson performance, monitor revenue trends and support data-driven sales decisions.
+The dashboard made it easier to identify the products, customers, regions and salespeople driving the strongest revenue and profit performance, while also highlighting areas with weaker margins or lower contribution. This gave management clearer evidence to support sales planning, performance monitoring and commercial decision-making.
 
 ## Dashboard Preview
 
